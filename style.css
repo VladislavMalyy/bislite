@@ -95,7 +95,6 @@ body {
 					    right: 0;
 					}
 
-					}
 					ul.subnav > li > a {
 					    display: block;
 					    padding: 10px;
@@ -117,7 +116,7 @@ body {
 			content: "\25be";
 			display: inline;
 			clear: both;
-			outline-width: 700;
+			outline-width: 700px;
 			padding-left: 10px;
 			padding-bottom: 20px;
 		} 
@@ -147,6 +146,7 @@ span {
 				background-color: #dd5835;
 				display: block;
 				margin: 0 auto;
+				padding-left: 61px;
 				max-width: 1000px;
 			}
 			.foil ul {
@@ -527,3 +527,6 @@ footer {
 		display: inline-block;
 		clear: both;
 	}
+.smiley{
+	display: none;
+}
