@@ -529,6 +529,7 @@ footer {
 		line-height: 20px;
 		text-align: left;
 		float: left;
+		margin: 0;
 	}
 
 	.finish a {
@@ -542,4 +543,10 @@ footer {
 	}
 .smiley{
 	display: none;
+}
+footer ul{
+	padding: 0;
+}
+footer ul li{
+	list-style: none;
 }
