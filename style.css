@@ -264,22 +264,25 @@ span {
 
 		.latest ul {
 			float: right;
+			margin-top:0;
 		}
 
 			.latest li {
-			display: inline-block;
-			height: 15px;
-			width: 15px;
-			background-color: #2aacc8;
-			border-radius: 50%;
-			font-weight: 700;
-			margin: 5px; 
-			text-align: center;
+				display: inline-block;
+				height: 15px;
+				width: 15px;
+				background-color: #2aacc8;
+				border-radius: 50%;
+				/*font-weight: 700;*/
+				margin: 5px;
+				text-align: center;
+				font-size:7px;
+				line-height:15px;
 			}
 			.latest h6:before {
 				content: "";
 				display: inline-block;
-				width: 50px;
+				width: 37px;
 				height: 20px;
 				background-image: url(img/pointer.png);
 				background-repeat: no-repeat;
@@ -289,6 +292,7 @@ span {
 			.latest h6 {
 				width: 200px;
 				display: inline;
+				font-size: 15px;
 			}
 
 		.pic {
@@ -344,6 +348,7 @@ hr {
 	color: lightgray;
 	max-width: 1000px;
 	margin-bottom: 10px;
+	clear: both;
 	}
 	
 	.person {
