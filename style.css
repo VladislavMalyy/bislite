@@ -186,6 +186,7 @@ span {
 				font-weight: 700;
 				line-height: 20px;
 				text-transform: uppercase;
+				margin-bottom:19px;
 			}
 
 			.next h6:before {
@@ -197,8 +198,8 @@ span {
 				border-radius: 50%;
 				background-position: center;
 				margin-right: 5%;
-				vertical-align: top;
-				margin-bottom: 5%;
+				vertical-align: middle;
+				/*margin-bottom: 5%;*/
 			}
 
 			h6.pencil:before {
@@ -229,9 +230,13 @@ span {
 			padding-bottom: 20px;
 			height: 120px;
 			overflow: hidden;
+			margin:0;
+			padding: 0;
 		}
 
 		.next a {
+			font-family: arial;
+			text-decoration: none;
 			color: #2aacc8;
 		}
 
@@ -241,6 +246,7 @@ span {
 			color: black;
 			clear: both;
 			padding-right: 10px;
+			vertical-align: top;
 		} 
 
 	.main {
